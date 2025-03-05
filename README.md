@@ -67,9 +67,6 @@ Once `changes.json` is updated, the sandbox will:
 - **Deploy if all checks pass**
 
 
-### 3. Monitor Progress & Logs
-Logs are stored in the `logs/` directory.
-
 #### Check Execution Logs
 ```bash
 tail -f logs/sandbox.log
