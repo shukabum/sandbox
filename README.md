@@ -67,10 +67,6 @@ Once `changes.json` is updated, the sandbox will:
 - **Deploy if all checks pass**
 
 
-#### Check Execution Logs
-```bash
-tail -f logs/sandbox.log
-```
 This will display:
 - **Change application status**
 - **Validation errors (if any)**
