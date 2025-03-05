@@ -10,7 +10,6 @@ sandbox/
 │   ├── sample_project/    # Example SVN-based project for testing
 │── logs/                  # Logs execution progress
 │── scripts/               # Helper scripts for applying and validating changes
-│── docker/                # Docker-related files
 │── docker-compose.yml     # Docker Compose configuration
 │── Dockerfile             # Defines the sandbox container
 │── README.md              # Documentation
