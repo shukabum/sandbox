@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  sandbox:
+    build: .
+    container_name: sandbox
+    volumes:
+      - ./input:/sandbox/input
+      - ./project:/sandbox/project
+      - ./logs:/sandbox/logs
+    environment:
+      - SVN_REPO_URL=http://svn.example.com/repository
+    restart: on-failure

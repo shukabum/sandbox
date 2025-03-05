@@ -1,0 +1,38 @@
+{
+    "changes": [
+      {
+        "path": "/src/com/example/Main.java",
+        "start-line": 5,
+        "end-line": 5,
+        "change": "INSERT",
+        "description": "Add a print statement for debugging",
+        "content": [
+          "        System.out.println(\"Debug: Application started hello\");"
+        ]
+      },
+      {
+        "path": "/webapp/index.xhtml",
+        "start-line": 3,
+        "end-line": 3,
+        "change": "REPLACE",
+        "description": "Change title of webpage",
+        "content": [
+          "    <title>Updated Web Application</title>"
+        ]
+      },
+      {
+        "path": "/css/style.css",
+        "start-line": 0,
+        "end-line": 0,
+        "change": "INSERT",
+        "description": "Add a new CSS class for styling",
+        "content": [
+          ".new-style {",
+          "    font-weight: bold;",
+          "    color: blue;",
+          "}"
+        ]
+      }
+    ]
+  }
+  
