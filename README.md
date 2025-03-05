@@ -10,7 +10,6 @@ sandbox/
 │   ├── sample_project/    # Example SVN-based project for testing
 │── logs/                  # Logs execution progress
 │── scripts/               # Helper scripts for applying and validating changes
-│── docker/                # Docker-related files
 │── docker-compose.yml     # Docker Compose configuration
 │── Dockerfile             # Defines the sandbox container
 │── README.md              # Documentation
@@ -20,7 +19,7 @@ sandbox/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/TejasGupta-27/sandbox
 cd sandbox
 ```
 
@@ -67,18 +66,7 @@ Once `changes.json` is updated, the sandbox will:
 - **Compile the code (if applicable)**
 - **Deploy if all checks pass**
 
-Run the following command to trigger execution manually:
-```bash
-docker exec sandbox-container /scripts/run_pipeline.sh
-```
 
-### 3. Monitor Progress & Logs
-Logs are stored in the `logs/` directory.
-
-#### Check Execution Logs
-```bash
-tail -f logs/sandbox.log
-```
 This will display:
 - **Change application status**
 - **Validation errors (if any)**
