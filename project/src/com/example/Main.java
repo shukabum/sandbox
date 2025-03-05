@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Debug: Application started hello");
         System.out.println("Debug: Application started hello");
+        System.out.println("Debug: Application started hello");
+        System.out.println("Debug: Application started hello");
+        System.out.println("Debug: Application started hello");
+        System.out.println("Debug: Application started hello");
+        System.out.println("Debug: Application started hello");
         System.out.println("Hello, World!");
     }
 }
