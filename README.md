@@ -66,10 +66,6 @@ Once `changes.json` is updated, the sandbox will:
 - **Compile the code (if applicable)**
 - **Deploy if all checks pass**
 
-Run the following command to trigger execution manually:
-```bash
-docker exec sandbox-container /scripts/run_pipeline.sh
-```
 
 ### 3. Monitor Progress & Logs
 Logs are stored in the `logs/` directory.
