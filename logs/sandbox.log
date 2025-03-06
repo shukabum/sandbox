@@ -1012,3 +1012,759 @@ deploy:
 BUILD SUCCESSFUL
 Total time: 0 seconds
 ✅ Build and deployment completed!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/pages/Distribution/pageExtractionConditionBase.xhtml...
+❌ Validation failed for /sandbox/project/pages/Distribution/pageExtractionConditionBase.xhtml: not well-formed (invalid token): line 32, column 18
+Checking /sandbox/project/css/common.css...
+❌ Code validation failed!
+📝 Creating build.xml...
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+❌ Validation failed for /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml: duplicate attribute: line 34, column 11
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+❌ Code validation failed!
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 23 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+❌ Validation failed for /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml: duplicate attribute: line 34, column 11
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+❌ Code validation failed!
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+✅ Build and deployment completed!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+/sandbox/project/build.xml:21: Compile failed; see the compiler error output for details.
+
+Total time: 8 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+/sandbox/project/build.xml:21: Compile failed; see the compiler error output for details.
+
+Total time: 7 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+/sandbox/project/build.xml:21: Compile failed; see the compiler error output for details.
+
+Total time: 7 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+/sandbox/project/build.xml:21: Compile failed; see the compiler error output for details.
+
+Total time: 8 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+/sandbox/project/build.xml:21: Compile failed; see the compiler error output for details.
+
+Total time: 10 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+Target "compile" does not exist in the project "TCSWeb". 
+
+Total time: 0 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 25 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+❌ Build validation failed!
+ 
+BUILD FAILED
+Target "compile" does not exist in the project "TCSWeb". 
+
+Total time: 0 seconds
+
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+✅ Build and deployment completed!
+🚀 Sandbox Started!
+📂 Setting up project structure...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+⚠️ No src_eclipse directory found in input
+🛠️ Applying LLM-suggested changes...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Applying changes to /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+✅ Changes applied successfully!
+✅ Validating the code...
+🔍 Validating modified files...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/pages/Distribution/pageExtractionConditionBase.xhtml...
+Checking /sandbox/project/src_eclipse/TCSWeb/WebContent/resources/css/common.css...
+🔍 Running full build validation...
+✅ Code validation successful!
+🏗️ Compiling and deploying...
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (ja_JP.UTF-8)
+🏗️ Running Ant build...
+Buildfile: /sandbox/project/src_eclipse/TCSWeb/build.xml
+
+clean:
+
+compile-java:
+    [mkdir] Created dir: /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Compiling 1792 source files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Creating empty /sandbox/project/src_eclipse/TCSWeb/build/classes/jp/co/itfor/tcs/controller/custom/dto/package-info.class
+     [copy] Copying 5 files to /sandbox/project/src_eclipse/TCSWeb/build/classes
+
+package-ita-pre-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPreSub.war
+
+package-ita-sub-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITASub.war
+
+package-ita-pre-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITAPre.war
+
+package-ita-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWebITA.war
+
+package-war-wls:
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/build/classes/META-INF
+     [copy] Copying 1 file to /sandbox/project/src_eclipse/TCSWeb/WebContent/WEB-INF
+      [war] Building war: /sandbox/project/src_eclipse/TCSWeb/build/wls/TCSWeb.war
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+✅ Build and deployment completed!
+🎯 Process Complete!

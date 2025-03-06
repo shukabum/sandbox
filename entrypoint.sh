@@ -4,6 +4,10 @@ exec > >(tee -a /sandbox/logs/sandbox.log) 2>&1
 
 echo "🚀 Sandbox Started!"
 
+# Set up project structure
+echo "📂 Setting up project structure..."
+/sandbox/scripts/setup_project.sh
+
 cd /sandbox/project
 
 # Apply LLM changes
@@ -21,7 +25,7 @@ if [ ! -f "build.xml" ]; then
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="sandbox" default="compile">
     <!-- Define properties -->
-    <property name="src.dir" value="src"/>
+    <property name="src_eclipse.dir" value="src_eclipse"/>
     <property name="build.dir" value="build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
 
@@ -38,7 +42,7 @@ if [ ! -f "build.xml" ]; then
 
     <!-- Compile target -->
     <target name="compile" depends="init">
-        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
+        <javac srcdir="${src_eclipse.dir}" destdir="${classes.dir}" includeantruntime="false"/>
     </target>
 
     <!-- Deploy target -->
@@ -49,7 +53,7 @@ if [ ! -f "build.xml" ]; then
 EOF
 fi
 
-# Compile & Deploy
+# Compile and Deploy
 echo "🏗️ Compiling and deploying..."
 /sandbox/scripts/compile_deploy.sh
 

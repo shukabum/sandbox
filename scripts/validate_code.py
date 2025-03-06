@@ -26,6 +26,25 @@ def validate_file_syntax(file_path):
                 return False, "Mismatched braces in CSS"
     return True, ""
 
+def analyze_dependencies(file_path):
+    """Scan file for import statements and dependencies"""
+    dependencies = []
+    if file_path.endswith('.java'):
+        with open(file_path, 'r') as f:
+            for line in f:
+                if line.strip().startswith('import'):
+                    dependencies.append(line.strip().split()[1].rstrip(';'))
+    return dependencies
+
+def validate_java_with_classpath(file_path, classpath):
+    """Validate Java file with dependencies"""
+    result = subprocess.run(
+        ['javac', '-cp', classpath, file_path],
+        capture_output=True, 
+        text=True
+    )
+    return result.returncode == 0, result.stderr
+
 print("🔍 Validating modified files...")
 
 # Read changes.json to know which files to validate
@@ -47,7 +66,7 @@ if not all_valid:
 
 # Finally run the ant build
 print("🔍 Running full build validation...")
-result = subprocess.run(["ant", "compile"], cwd="/sandbox/project/", capture_output=True, text=True)
+result = subprocess.run(["ant", "package-war-wls"], cwd="/sandbox/project/src_eclipse/TCSWeb", capture_output=True, text=True)
 
 if result.returncode == 0:
     print("✅ Code validation successful!")
