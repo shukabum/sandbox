@@ -3,13 +3,7 @@
 # Create necessary directories
 mkdir -p /sandbox/project/src_eclipse/TCSWeb/{src,WebContent,build,lib/provided,lib_module/ext}
 
-# Copy source files from input
-if [ -d "/sandbox/input/src_eclipse" ]; then
-    cp -r /sandbox/input/src_eclipse/* /sandbox/project/src_eclipse/
-    echo "✅ Copied src_eclipse files to project directory"
-else
-    echo "⚠️ No src_eclipse directory found in input"
-fi
+
 
 # Set proper permissions
 chmod -R 755 /sandbox/project/src_eclipse/
